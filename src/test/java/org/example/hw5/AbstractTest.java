@@ -2,7 +2,6 @@ package org.example.hw5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -31,6 +30,7 @@ public abstract class AbstractTest {
     @BeforeEach
    public void login() {
 
+        // Test 1
         WebElement webElement1 = driver.findElement(By.xpath("//input[@id='user-name']"));
         webElement1.click();
         webElement1.sendKeys("standard_user");
