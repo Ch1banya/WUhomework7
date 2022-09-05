@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a3f6ad-04ca-4f1e-b91a-82acd1e722fb" name="Changes" comment="Homework 4">
+    <list default="true" id="68a3f6ad-04ca-4f1e-b91a-82acd1e722fb" name="Changes" comment="Homework 5 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw5/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw5/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw5/AnotherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw5/AboutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MyTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework4" />
+        <entry key="$PROJECT_DIR$" value="homework5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +61,7 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TryItFreeTest">
+  <component name="RunManager" selected="JUnit.LoginInTest">
     <configuration name="AboutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WUhomework1" />
       <extension name="coverage">
@@ -81,32 +77,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginInTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WUhomework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw5.*" />
+          <option name="PATTERN" value="org.example.hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw5.LogoutTest" />
+      <option name="PACKAGE_NAME" value="org.example.hw6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw6.LoginInTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest.aboutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginInTest.loginIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WUhomework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw5.*" />
+          <option name="PATTERN" value="org.example.hw6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.hw5" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw5.LogoutTest" />
-      <option name="METHOD_NAME" value="aboutTest" />
+      <option name="PACKAGE_NAME" value="org.example.hw6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw6.LoginInTest" />
+      <option name="METHOD_NAME" value="loginIn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginInTest" />
+        <item itemvalue="JUnit.LoginInTest.loginIn" />
         <item itemvalue="JUnit.TryItFreeTest" />
         <item itemvalue="JUnit.TryItFreeTest.tryItFreetTest" />
         <item itemvalue="JUnit.AboutTest" />
-        <item itemvalue="JUnit.LogoutTest.aboutTest" />
-        <item itemvalue="JUnit.LogoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662053235607</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework 5 done">
+      <created>1662067335736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662067335736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework2" />
     <MESSAGE value="Homework 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 4" />
+    <MESSAGE value="Homework 5 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 5 done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

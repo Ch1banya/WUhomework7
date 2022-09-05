@@ -19,9 +19,6 @@ public class MyTest1 {
         driver.get("https://www.saucedemo.com");
 
 
-        // Авторизация на сайте
-//Вместо css, который я выбирала для 1го ДЗ, решила попробовать через Xpath.
-
         WebElement webElement1 = driver.findElement(By.xpath("//input[@id='user-name']"));
         webElement1.click();
         webElement1.sendKeys("standard_user");
