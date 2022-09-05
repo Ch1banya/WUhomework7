@@ -27,13 +27,6 @@ public abstract class AbstractTest {
         driver.get("https://www.saucedemo.com");
     }
 
-    @BeforeEach
-    public void login() {
-
-
-        Assertions.assertEquals("https://www.saucedemo.com/inventory.html",driver.getCurrentUrl());
-
-    }
 
 
     @AfterAll

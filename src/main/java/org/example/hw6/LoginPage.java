@@ -13,9 +13,6 @@ public class LoginPage extends AbstractPage {
     @FindBy(xpath = "//input[@id='password']")
     private WebElement password;
 
-    @FindBy(xpath = "//input[@id='password']")
-    private WebElement passwordInput;
-
     @FindBy(xpath = "//input[@id='login-button']")
     private WebElement submit;
 
@@ -24,20 +21,20 @@ public class LoginPage extends AbstractPage {
     }
 
 
-    public void loginIn(){
-        this.submit.click();
-    }
+  //      public void loginIn(){
+  //          this.submit.click();
+  //      }
 
-    public LoginPage setLogin(String login){
-        this.login.sendKeys(login);
-        return this;
-    }
+  //      public LoginPage setLogin(String login){
+  //          this.login.sendKeys(login);
+  //          return this;
+  //      }
 
-    public LoginPage setPassword(String password){
-        this.password.click();
-        this.passwordInput.sendKeys(password);
-        return this;
-    }
+ //       public LoginPage setPassword(String password){
+ //           this.password.click();
+  //          this.password.sendKeys(password);
+   //         return this;
+   //     }
 
     public void loginIn(String login, String password){
 

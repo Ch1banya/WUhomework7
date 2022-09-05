@@ -12,12 +12,11 @@ public class LoginInTest extends AbstractTest {
 
     @Test
     void loginIn(){
-        new MainShopPage(getWebDriver()).goToShop();
         new LoginPage(getWebDriver())
-                .setLogin("standard_user")
-                .setPassword("secret_sauce")
-                .loginIn();
-        Assertions.assertEquals("https://www.saucedemo.com/inventory.html",driver.getCurrentUrl());
+                //  .setLogin("standard_user")
+              //  .setPassword("secret_sauce")
+                .loginIn("standard_user","secret_sauce");
+           Assertions.assertEquals("https://www.saucedemo.com/inventory.html",getWebDriver().getCurrentUrl());
 
     }
 
