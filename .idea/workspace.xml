@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a3f6ad-04ca-4f1e-b91a-82acd1e722fb" name="Changes" comment="Homework 6 in progress">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw6/AboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw6/AboutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw6/AboutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw6/AboutPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw6/ShopPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw6/ShopPageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="68a3f6ad-04ca-4f1e-b91a-82acd1e722fb" name="Changes" comment="Homework 6 final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662454295196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework 6 final">
+      <created>1662464942035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662464942035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +230,8 @@
     <MESSAGE value="Homework 5 done" />
     <MESSAGE value="Homework 6 done" />
     <MESSAGE value="Homework 6 in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 6 in progress" />
+    <MESSAGE value="Homework 6 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 6 final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
