@@ -15,16 +15,16 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractTest {
 
-    public static WebDriver driver;
+    static WebDriver webDriver;
 
     @BeforeAll
     public static void init() {
 
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.get("https://www.saucedemo.com");
+        webDriver = new ChromeDriver(options);
+        webDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+       webDriver.get("https://www.saucedemo.com");
     }
 
 
@@ -33,7 +33,7 @@ public abstract class AbstractTest {
     static void close(){
         //driver.quit();
     }
-    public static WebDriver getWebDriver() {
-        return driver;
+    public WebDriver getWebDriver() {
+        return this.webDriver;
     }
 }
