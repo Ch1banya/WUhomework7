@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class AboutPage extends AbstractPage {
+public class ShopRemovePage extends AbstractPage {
 
     @FindBy(xpath = "//input[@id='user-name']")
     private WebElement login;
@@ -21,13 +21,14 @@ public class AboutPage extends AbstractPage {
     @FindBy(xpath = "//input[@id='login-button']")
     private WebElement submit;
 
-    @FindBy(xpath = "//button[@id='react-burger-menu-btn']")
-    private WebElement menu;
+    @FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-backpack']")
+    private WebElement buyItem;
 
-    @FindBy(xpath = "//a[@id='about_sidebar_link']")
-    private WebElement about;
+    @FindBy(xpath = "//button[@id='remove-sauce-labs-backpack']")
+    private WebElement removeItem;
 
-    public AboutPage(WebDriver driver) {
+
+    public ShopRemovePage(WebDriver driver) {
         super(driver);
     }
 
@@ -44,17 +45,19 @@ public class AboutPage extends AbstractPage {
     }
 
 
-    public void navigateToMenu(){
-        this.menu.click();
+    public void buyItem() {
+
+        this.buyItem.click();
         new WebDriverWait(getDriver(), Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("inventory"));
-    }
-
-    public void navigateToAbout(){
-        this.about.click();
-        new WebDriverWait(getDriver(), Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("saucelabs"));
-    }
 
 
     }
 
+    public void removeItem() {
 
+        this.removeItem.click();
+        new WebDriverWait(getDriver(), Duration.ofSeconds(10)).until(ExpectedConditions.urlContains("inventory"));
+
+
+    }
+}

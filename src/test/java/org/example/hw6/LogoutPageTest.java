@@ -8,12 +8,12 @@ import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Order;
 import java.time.Duration;
 @TestMethodOrder(OrderAnnotation.class)
-public class AboutPageTest extends AbstractTest {
+public class LogoutPageTest extends AbstractTest {
 
     @Order(1)
     @Test
     void loginIn(){
-        new AboutPage(getWebDriver())
+        new LoginPage(getWebDriver())
                 //  .setLogin("standard_user")
                 //  .setPassword("secret_sauce")
                 .loginIn("standard_user","secret_sauce");
@@ -24,15 +24,15 @@ public class AboutPageTest extends AbstractTest {
     @Order(2)
     @Test
     void clickToMenu(){
-        new AboutPage(getWebDriver()).navigateToMenu();
+        new LogoutPage(getWebDriver()).navigateToMenu();
         Assertions.assertEquals("https://www.saucedemo.com/inventory.html",getWebDriver().getCurrentUrl());
 
     }
     @Order(3)
     @Test
-    void clickToAbout(){
-        new AboutPage(getWebDriver()).navigateToAbout();
-        Assertions.assertEquals("https://saucelabs.com/",getWebDriver().getCurrentUrl());
+    void clickToLogout(){
+        new LogoutPage(getWebDriver()).navigateToLogout();
+        Assertions.assertEquals("https://www.saucedemo.com/",getWebDriver().getCurrentUrl());
     }
 
 
