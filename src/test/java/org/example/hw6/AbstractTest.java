@@ -11,6 +11,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractTest {
@@ -27,6 +32,17 @@ public abstract class AbstractTest {
        webDriver.get("https://www.saucedemo.com");
     }
 
+    @AfterEach
+    public void tearDown() {
+// Вывод всех ошибок браузера после каждого теста
+        LogEntries browserLogs = webDriver.manage().logs().get(LogType.BROWSER);
+        List<LogEntry> allLogRows = browserLogs.getAll();
+        if (allLogRows.size() > 0 ) {
+
+        }
+// -------------------------------
+      //  webDriver.quit();
+    }
 
 
     @AfterAll

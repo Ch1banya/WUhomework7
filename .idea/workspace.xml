@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a3f6ad-04ca-4f1e-b91a-82acd1e722fb" name="Changes" comment="Homework 6 final" />
+    <list default="true" id="68a3f6ad-04ca-4f1e-b91a-82acd1e722fb" name="Changes" comment="Homework 6 final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw6/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw6/AbstractTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework5" />
+        <entry key="$PROJECT_DIR$" value="homework6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ShopRemovePageTest">
+  <component name="RunManager" selected="JUnit.ShopPageTest">
     <configuration name="AboutPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WUhomework1" />
       <extension name="coverage">
@@ -74,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AboutPageTest.clickToMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WUhomework1" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +87,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hw6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw6.LogoutPageTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw6.AboutPageTest" />
+      <option name="METHOD_NAME" value="clickToMenu" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutPageTest.loginIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AboutPageTest.loginIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WUhomework1" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +103,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.hw6" />
-      <option name="MAIN_CLASS_NAME" value="org.example.hw6.LogoutPageTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw6.AboutPageTest" />
       <option name="METHOD_NAME" value="loginIn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShopRemovePageTest" />
-        <item itemvalue="JUnit.LogoutPageTest" />
-        <item itemvalue="JUnit.LogoutPageTest.loginIn" />
-        <item itemvalue="JUnit.AboutPageTest" />
         <item itemvalue="JUnit.ShopPageTest" />
+        <item itemvalue="JUnit.ShopRemovePageTest" />
+        <item itemvalue="JUnit.AboutPageTest" />
+        <item itemvalue="JUnit.AboutPageTest.loginIn" />
+        <item itemvalue="JUnit.AboutPageTest.clickToMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -210,8 +215,20 @@
       <option name="project" value="LOCAL" />
       <updated>1662464942035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework 6 final">
+      <created>1662465496333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662465496333</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:io.qameta.allure:allure-java-commons" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
